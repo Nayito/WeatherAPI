@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Weather API</title>
+</head>
+
+<body class="bgColor">
+
+    <div class="container-fluid">
+        <div class="row txtCenter rTweak">
+            <h1 class="titleTxt">Weather Application</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row slightMove">
+            <div class="col-1">
+                <div id="btnLast" class="btn btn-primary"><</div>
+            </div>
+            <div class="col-4" id="injectCity">
+                <h3 class="txtCenter">Weather Display:</h3>
+                <div class="row rBorder rMove dataTxt">
+                    <div class="col-4 dataTxt cName" id="dataD1"></div>
+                    <div class="col-8 dataTxt cDeg" id="dataD2"></div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <div class="row txtEnd modRow">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary bRework2" data-toggle="modal"
+                        data-target="#exampleModal">
+                        Add a City or ZipCode
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body mTweak">
+                                    <div class="row txtCenter modRework">
+                                        Add a City or ZipCode
+                                    </div>
+                                    <div class="row iTweak">
+                                        <input type="text" class="form-control" placeholder="Enter City/Zip"
+                                            id="userInput">
+                                    </div>
+                                    <div class="row bTweak">
+                                        <button type="button" class="btn btn-primary bRework" id="loadWeather">Load
+                                            Weather</button>
+                                        <button type="button" class="btn btn-danger bNudge" id="deleteStorage">Delete
+                                            Local
+                                            Storage</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h3 class="txtCenter">Forecast Display:</h3>
+                <div class="row rBorder">
+                    <div class="col-9 dataTxt cName" id="cityN1"></div>
+                    <div class="col-3 dataTxt cDeg" id="cityD1"></div>
+                </div>
+                <div class="row rBorder">
+                    <div class="col-9 dataTxt cName" id="cityN2"></div>
+                    <div class="col-3 dataTxt cDeg" id="cityD2"></div>
+                </div>
+                <div class="row rBorder">
+                    <div class="col-9 dataTxt cName" id="cityN3"></div>
+                    <div class="col-3 dataTxt cDeg" id="cityD3"></div>
+                </div>
+                <div class="row rBorder">
+                    <div class="col-9 dataTxt cName" id="cityN4"></div>
+                    <div class="col-3 dataTxt cDeg" id="cityD4"></div>
+                </div>
+                <div class="row rBorder">
+                    <div class="col-9 dataTxt cName" id="cityN5"></div>
+                    <div class="col-3 dataTxt cDeg" id="cityD5"></div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div id="btnNext" class="btn btn-primary">></div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

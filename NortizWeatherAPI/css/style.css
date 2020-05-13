@@ -1,0 +1,145 @@
+.bgColor {
+    background-color: lightblue;
+}
+
+.cityTxt {
+    margin-top: .6em;
+}
+
+.dataTxt {
+    font-size: 23px;
+}
+
+.del {
+    background-color: lightcoral;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3em;
+}
+
+.delSize {
+    font-weight: 400;
+}
+
+.degTxt {
+    margin-top: .2em;
+    font-weight: 350;
+}
+
+.imgMove {
+    margin-top: .3em;
+}
+
+.txtCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.titleTxt {
+    font-weight: 350;
+}
+
+.slightMove {
+    margin-top: 1em;
+}
+
+.txtEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 50%;
+}
+
+.bRework {
+    margin-top: 5em;
+    padding-left: 11em;
+    padding-right: 11em;
+    background-color: lightblue;
+    color: black;
+}
+
+.bRework2 {
+    background-color: white;
+    color: black;
+}
+
+.bNudge {
+    margin-top: 1em;
+}
+
+.bTweak {
+    display: flex;
+    justify-content: center;
+}
+
+.cName{
+    display:flex;
+    justify-content: center;
+    background-color:white;
+    color:black;
+}
+
+.cDeg{
+    display:flex;
+    justify-content: center;
+    background-color:white;
+    color:black;
+}
+
+.cTweak {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cTweak2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cBorder {
+    border-style: solid;
+    border-width: 1px;
+    ;
+}
+
+.iTweak {
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+.modRow {
+    margin-right: 1em;
+    margin-top: 2em;
+}
+
+.modRework {
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.mTweak {
+    background-color: lightgray;
+}
+
+.rTweak {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background-color: white;
+}
+
+.rBorder {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 1em;
+    margin-left:.5em;
+    margin-right:1em;
+}
+
+.rMove {
+    margin-top: .7em;
+}
